@@ -7,7 +7,7 @@
 + Timer starts running after your first move, which comprises 2 card clicks.
 + Rating stars are displayed on the top panel, which reduce in number as you make an increasing number of moves.
 + Top panel also features a reset button
-+ At the conclussion of the game, a modal window announces your final timer to completion, star rating, and number of moves. 
++ At the conclussion of the game, a modal window announces your final time to completion, star rating, and number of moves. 
 
 ![game screenshot ](https://raw.githubusercontent.com/cacarr-pdxweb/FEND-Memory-Game/master/img/matching-screenshot.png "Memory Game with Modal")
 
