@@ -1,3 +1,7 @@
+/// Some basic notions of mine as to how to approach structuring this code were in part influneced    
+/// by pseudo-code notes taken while watching this Study Jam session: https://www.youtube.com/watch?v=G8J13lmApkQ&t=31s
+
+
 /*=============================================
 =                Arrays                  =
 =============================================*/
