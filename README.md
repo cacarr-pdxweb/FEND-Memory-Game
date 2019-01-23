@@ -11,4 +11,6 @@
 
 ![game screenshot ](https://raw.githubusercontent.com/cacarr-pdxweb/FEND-Memory-Game/master/img/matching-screenshot.png "Memory Game with Modal")
 
+The game can be played here: https://cacarr-pdxweb.github.io/FEND-Memory-Game/
+
 DOM manipulation is entirely with vanilla JavaScript. There is minimal additional styling beyond the that which was supplied, but I do intend to build and style the markup from scratch in a version 2.0, utilizing CSS Grid along with flexbox. Additionaly, I intend to offer multiple difficulty levels by way of varying the number of milliseconds unmatched cards are visible. 
