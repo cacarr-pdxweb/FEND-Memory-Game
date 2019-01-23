@@ -9,7 +9,7 @@
 + Top panel also features a reset button
 + At the conclussion of the game, a modal window announces your final time to completion, star rating, and number of moves. 
 
-![game screenshot ](https://raw.githubusercontent.com/cacarr-pdxweb/FEND-Memory-Game/master/img/matching-screenshot.png "Memory Game with Modal")
+![game screenshot ](https://raw.githubusercontent.com/cacarr-pdxweb/FEND-Memory-Game/master/img/matching.png "Memory Game with Modal")
 
 The game can be played here: https://cacarr-pdxweb.github.io/FEND-Memory-Game/
 
