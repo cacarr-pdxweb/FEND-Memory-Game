@@ -2,14 +2,11 @@ html {
     box-sizing: border-box;
 }
 
-*,
-*::before,
-*::after {
+*, *::before, *::after {
     box-sizing: inherit;
 }
 
-html,
-body {
+html, body {
     width: 100%;
     height: 100%;
     margin: 0;
@@ -17,7 +14,8 @@ body {
 }
 
 body {
-    background: #ffffff url('../img/geometry2.png'); /* Background pattern from Subtle Patterns */
+    background: #ffffff url('../img/geometry2.png');
+    /* Background pattern from Subtle Patterns */
     font-family: 'Coda', cursive;
 }
 
@@ -81,14 +79,24 @@ h1 {
     font-size: 33px;
 }
 
+/* disable second click */
+
+.deck .card.click2 {
+    pointer-events: none;
+}
+
 /*
  * Styles for the Score Panel
  */
 
 .score-panel {
-    text-align: left;
-    width: 345px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 660px;
+    justify-content: space-between;
     margin-bottom: 10px;
+    align-items: center;
 }
 
 .score-panel .stars {
@@ -101,9 +109,46 @@ h1 {
 .score-panel .stars li {
     list-style: none;
     display: inline-block;
+    color: #F9FAFB;
+}
+
+/* star rating indicator color */
+
+.score-panel .stars li.purple {
+    color: #A87ECC;
 }
 
 .score-panel .restart {
     float: right;
     cursor: pointer;
+}
+
+/* timer */
+
+.timer-container {
+    width: 120px;
+    display: inline-block;
+}
+
+/*
+ * Modal style
+ */
+
+.modal {
+    display: none;
+}
+
+.modal.modal-open {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    width: 400px;
+    height: auto;
+    background-color: rgb(168, 127, 204);
+    border-radius: 10px;
+    box-shadow: 12px 15px 20px 0 rgba(46, 61, 73, 0.5);
+    text-align: center;
+    align-items: center;
 }
