@@ -1,20 +1,14 @@
-# Memory Game Project
+# Udacity Front-End Nanodegree - Project 2 - Memory Game
 
-## Table of Contents
+**Gameplay**
++ Flip and match 8 pairs of hidden cards.
++ Matched pairs stay locked up.
++ Mismatched pairs are displayed for 400ms before their icons are hidden.
++ Timer starts running after your first move, which comprises 2 card clicks.
++ Rating stars are displayed on the top panel, which reduce in number as you make an increasing number of moves.
++ Top panel also features a reset button
++ At the conclussion of the game, a modal window announces your final timer to completion, star rating, and number of moves. 
 
-* [Instructions](#instructions)
-* [Contributing](#contributing)
+![game screenshot ](https://raw.githubusercontent.com/cacarr-pdxweb/FEND-Memory-Game/master/img/matching-screenshot.png "Memory Game with Modal")
 
-## Instructions
-
-The starter project has some HTML and CSS styling to display a static version of the Memory Game project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
-
-To get started, open `js/app.js` and start building out the app's functionality
-
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
-
-## Contributing
-
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
-
-For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
+DOM manipulation is entirely with vanilla JavaScript. There is minimal additional styling beyond the that which was supplied, but I do intend to build and style the markup from scratch in a version 2.0, utilizing CSS Grid along with flexbox. Additionaly, I intend to offer multiple difficulty levels by way of varying the number of milliseconds unmatched cards are visible. 
