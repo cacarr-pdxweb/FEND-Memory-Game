@@ -297,6 +297,9 @@ function playAgain() {
         // Remove modal
         let removeModal = document.querySelector('#modal');
         removeModal.classList.remove('modal-open');
+
+        // shuffle deck
+        shuffle(cardIcons);
     });
 }
 
@@ -393,6 +396,9 @@ function done() {
             // Remove modal
             let removeModal = document.querySelector('#modal');
             removeModal.classList.remove('modal-open');
+
+            // shuffle deck
+            shuffle(cardIcons);
         });
     }
 }
